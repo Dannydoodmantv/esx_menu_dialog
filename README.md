@@ -1,9 +1,10 @@
 # esx_menu_dialog
-A simple and clean design of esx_menu_dialog
+A simple and modern dialog design!
 
 
 
 Preview:
 
 
-![na siti jak claun](https://user-images.githubusercontent.com/63021199/136702509-51d75389-1baf-46a5-b84a-9076a96d91fb.png)
+![swag2](https://user-images.githubusercontent.com/63021199/155839441-b04039ba-4e9b-41dd-8812-7f0e168e7686.png)
+
