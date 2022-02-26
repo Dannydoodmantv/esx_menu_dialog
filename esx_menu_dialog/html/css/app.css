@@ -1,17 +1,22 @@
-@font-face {
-	font-family: uni;
-	text-transform: uppercase;
-	src: url('../fonts/uni.ttf');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,500;0,600;0,700;1,500;1,600&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav:wght@100;300;400;500;700;900&display=swap');
+
+
+
+*{
+	font-weight: 600;
+	font-family: 'Yantramanav', sans-serif;
+	text-shadow: 1px 2px 3px rgb(46, 46, 46);
 }
 
 #controls {
-	font-family: 'uni', sans-serif;
+
 	font-size: 1em;
 	text-transform: uppercase;
 	color: #FFF;
 	position: absolute;
 	bottom: 40;
-	font-weight: 600;
+
 	right: 40;
 }
 
@@ -21,12 +26,11 @@
 
 .dialog {
 	margin-top: 300px;
-	background-color: #555555b0;
-	border-radius: 10px;
-	font-weight: 600;
-	border: 2px solid rgb(58, 58, 58);
+	background-color: #252525;
+	border-radius: 5px;
+
 	text-transform: uppercase;
-	font-family: 'uni', sans-serif;
+	
 	color: #ffffff;
 	position: absolute;
 	top: 50%;
@@ -34,19 +38,19 @@
 	min-width: 100px;
 	min-height: 10px;
 	width: 500px;
-	height: 190px;
+	height: 18vh;
 
 	transform: translate(-50%, -50%);
+	border: 2px solid #4b4b4b;
 }
 
+
+
 .head {
-	font-family: 'uni', sans-serif;
-	font-size: 20px;
-	font-weight: 600;
+	font-size: 1.5vh;
 	display: block;
 	overflow: hidden;
-	margin-top: 10px;
-	text-transform: uppercase;
+	margin-top: 2.0vh;
 }
 
 .dialog.big {
@@ -55,30 +59,22 @@
 
 .dialog .head {
 	text-align: center;
-	height: 40px;
+	height: 20px;
 	font-size: 20px;
-	font-weight: 600;
 	text-transform: uppercase;
-
-	text-transform: none;
 }
 
-.dialog .head span::before {
-	content: "";
-	height: 100%;
-	text-transform: uppercase;
-	vertical-align: middle;
-}
+
 
 .dialog input[type="text"] {
-	background-color: rgba(40, 41, 45, 0.75);
-	font-family: 'uni', sans-serif;
+	background-color: rgba(66, 66, 66, 0.75);
+	
 	font-size: 16px;
-	border: 1px solid rgba(37, 37, 37, 0.829);
+	border: 1px solid rgba(100, 100, 100, 0.829);
 	width: 60%;
 	outline: 0;
 	text-align: center;
-	font-weight: 600;
+	border-radius: .3vh ;
 	margin-top: 20px;
 	margin-left: 105px;
 	padding: 10px 25px;
@@ -88,9 +84,9 @@
 
 .dialog textarea {
 	background-color: rgba(40, 41, 45, 0.75);
-	font-family: 'uni', sans-serif;
+
 	border: 1px solid rgba(83, 83, 83, 0.5);
-	font-weight: 600;
+
 	font-size: 16px;
 	outline: 0;
 	width: 100%;
@@ -99,11 +95,10 @@
 }
 
 .dialog button[name="submit"] {
-	background-color: #646464;
+	background-color: rgb(53, 53, 53);
 	border: none;
 	font-size: 14px;
 	border: 2px solid rgb(58, 58, 58);
-	font-weight: 600;
 	border-radius: 2px;
 	text-transform: uppercase;
 	color: white;
@@ -113,7 +108,7 @@
 	margin-bottom: 15px;
 	margin-left: 105px;
 	transition: all 0.1s ease-in-out;
-	font-family: "uni", sans-serif;
+
 }
 
 .dialog button {
@@ -122,10 +117,9 @@
 }
 
 .dialog button[name="cancel"] {
-	background-color: #646464;
+	background-color: rgb(53, 53, 53);
 	border: none;
 	font-size: 14px;
-	font-weight: 600;
 	text-transform: uppercase;
 	border: 2px solid rgb(58, 58, 58);
 	border-radius: 2px;
@@ -135,23 +129,18 @@
 	padding: 10px 25px;
 	margin-top: 0;
 	margin-bottom: 15px;
-	margin-left: 80px;
+	margin-left:  90px;
 	transition: all 0.1s ease-in-out;
 }
 
 .dialog button[name="cancel"]:hover {
-	background-color: #1a1a1a;
-}
-
-.dialog button[name="submit"]:hover {
-	background-color: #1a1a1a;
+	background-color: #242424;
 	cursor: pointer;
 }
 
-.head::before,
-.head::after {
-	content: "";
-	flex-grow: 1;
-	height: 2px;
-	margin: 0px 3px;
+.dialog button[name="submit"]:hover {
+	background-color: #242424;
+	cursor: pointer;
 }
+
+
